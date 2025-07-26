@@ -19,7 +19,7 @@ from google.adk.tools.retrieval.vertex_ai_rag_retrieval import VertexAiRagRetrie
 from vertexai.preview import rag
 
 from dotenv import load_dotenv
-from .prompts import return_instructions_root
+from agent_app.prompts import return_instructions_root
 
 load_dotenv()
 
