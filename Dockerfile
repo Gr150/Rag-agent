@@ -22,4 +22,4 @@ EXPOSE 8080
 # ENV GOOGLE_CLOUD_LOCATION=us-central1
 
 # Command to run your agent (update if your entrypoint is different)
-CMD ["python", "-m", "agent"] 
+CMD ["python", "-m", "agent.py"] 
